@@ -11,8 +11,8 @@
 
 
    <xsl:choose>
-            <xsl:when test="/Integration/Case/@Op='A'">
-                <xsl:if test="/Integration/Case[CaseCategory='CR']">
+            <xsl:when test="/Integration/Warrant/@Op='A'">
+                <xsl:if test="/Integration/Warrant[CaseCategory='CR']">
 				
                         true
 						
