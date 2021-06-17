@@ -10,7 +10,7 @@
   <xsl:template name="Evaluate">
     
  	<xsl:choose>
-			<xsl:when test="//*">true</xsl:when>
+			<xsl:when test="//*">false</xsl:when>
 		</xsl:choose>
 	
 	
