@@ -9,9 +9,15 @@
 <!--  *******************************************************************************************  * -->
   <xsl:template name="Evaluate">
     
- 	<xsl:choose>
-			<xsl:when test="//*">false</xsl:when>
-		</xsl:choose>
+   <xsl:choose>
+            <xsl:when test="/Integration/Warrant/@Op='A'">
+                <xsl:if test="/Integration/Warrant[CaseCategory='CR']">
+				
+                        true
+						
+                </xsl:if>
+            </xsl:when>
+        </xsl:choose>
 	
 	
 	
